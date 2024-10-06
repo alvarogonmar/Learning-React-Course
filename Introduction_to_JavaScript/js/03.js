@@ -30,3 +30,7 @@ console.log(typeof number)
 // Boolean (true/false)
 const off = true
 console.log(typeof off)
+
+// Null
+const discount = null
+console.log(discount)
