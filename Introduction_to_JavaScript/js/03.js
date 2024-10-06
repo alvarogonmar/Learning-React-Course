@@ -13,3 +13,16 @@ console.log(typeof student)
 let product = 'iPhone'
 console.log(product)
 console.log(typeof product)
+
+// Numbers
+const number1 = 20.20
+const number2 = 19.9
+const number3 = 23.90
+
+console.log(typeof number1)
+console.log(typeof number2)
+console.log(typeof number3)
+
+// BigInt constructor
+const number = BigInt(18282882993982939)
+console.log(typeof number)
