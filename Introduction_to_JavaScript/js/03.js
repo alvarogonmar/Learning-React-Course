@@ -31,6 +31,14 @@ console.log(typeof number)
 const off = true
 console.log(typeof off)
 
-// Null
+// Null (needs to be asigned)
 const discount = null
 console.log(discount)
+
+// Symbol (each symbol is different to other symbol, you can have the samve value in each symbol but it wont be the same)
+const firstSymbol = Symbol(30)
+const secondSymbol = Symbol(30)
+
+//(For example if you compare first and second symbol, you can see that the value is the same=30)
+console.log(firstSymbol == secondSymbol)
+//(it returns false because each Symbol is different)
