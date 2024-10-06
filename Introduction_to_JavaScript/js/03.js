@@ -23,6 +23,10 @@ console.log(typeof number1)
 console.log(typeof number2)
 console.log(typeof number3)
 
-// BigInt constructor
+// BigInt constructor (big numers)
 const number = BigInt(18282882993982939)
 console.log(typeof number)
+
+// Boolean (true/false)
+const off = true
+console.log(typeof off)
