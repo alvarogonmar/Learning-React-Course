@@ -8,3 +8,8 @@ console.log(typeof product1)
 
 //PRINT WITH TABLE
 console.table(product1)
+
+// SHOW SPECIFIC INFORMATION
+console.log(product1.name)
+console.log(product1.price)
+
