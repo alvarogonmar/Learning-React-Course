@@ -9,7 +9,8 @@ const product1 = {
 // CANT CHANGE VALUES OF THE OBJECTS WITH FREEZE
 // Object.freeze(product1)
 
-Object.seal(product1)
+// CANT ADD OR DELETE A PROPERTY
+// Object.seal(product1)
 
 // rewrite a value
 product1.stock = true
