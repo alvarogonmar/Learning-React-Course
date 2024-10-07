@@ -16,7 +16,11 @@ const customer1 = {
 
 const {name1} = product1
 // RENAME THE VARIABLE
-const {name1: name1Customer} = customer1
+const {name1: name1Customer, 
+    // entering the object
+    direction: {street}} = customer1
 
 console.log(name1)
 console.log(name1Customer)
+
+console.log(street)
