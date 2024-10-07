@@ -6,6 +6,9 @@ const product1 = {
     stock : false
 }
 
+Object.freeze(product1)
+
+
 // rewrite a value
 product1.stock = true
 // Adding a value if it doesnt exist
