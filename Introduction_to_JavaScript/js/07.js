@@ -17,6 +17,7 @@ const customer1 = {
 // }
 // console.log(shopping_car)
 
+// uniting everything in a single object
 const newObject = {
     ...product1,
     // another way
