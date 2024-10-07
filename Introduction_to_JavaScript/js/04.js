@@ -1,8 +1,7 @@
 // Objects (key and value)
 const product1 = {
-    name : 'TV',
-    price : 300,
-    stock : false
+    name1 : 'TV',
+    price2 : 300
 }
 console.log(product1)
 console.log(typeof product1)
@@ -11,19 +10,10 @@ console.log(typeof product1)
 console.table(product1)
 
 // SHOW SPECIFIC INFORMATION
-console.log(product1.name)
-console.log(product1.price)
+console.log(product1.name1)
+console.log(product1.price2)
 
 //DESTRUCTURING
-const { name, price, stock } = product1
-console.log(name)
-console.log(price)
-console.log(stock)
-
-//This does the same as the code above but is longer.
-//const name = product1.name
-//const price = product1.price
-//const stock = product1.stock
-//console.log(name)
-//console.log(price)
-//console.log(stock)
+const { name1, price2 } = product1
+console.log(name1)
+console.log(price2)
