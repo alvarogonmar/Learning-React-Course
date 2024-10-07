@@ -1,6 +1,0 @@
-// Objects - Manipulation
-
-const product1 = {
-    name1 : 'TV',
-    price2 : 300
-}
