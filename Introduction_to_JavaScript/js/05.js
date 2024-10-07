@@ -6,8 +6,10 @@ const product1 = {
     stock : false
 }
 
-Object.freeze(product1)
+// CANT CHANGE VALUES OF THE OBJECTS WITH FREEZE
+// Object.freeze(product1)
 
+Object.seal(product1)
 
 // rewrite a value
 product1.stock = true
