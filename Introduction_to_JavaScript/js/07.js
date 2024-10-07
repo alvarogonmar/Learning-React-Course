@@ -13,6 +13,6 @@ const customer1 = {
 
 const shopping_car = {
     amount : 1,
-    product1
+    ...product1 // spread operator (...)
 }
 console.log(shopping_car)
