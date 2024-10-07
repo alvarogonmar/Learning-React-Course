@@ -8,4 +8,5 @@ const brand = 'Orange'
 console.log('The product is: ' + product)
 // THE SAME AS ABOVE BUT BETTER, WITH BACKTICKS
 console.log(`The product is: ${product}`)
-console.log(`${product} $${price} Dollars, brand: ${brand}`)
+
+console.log(`${product} $${price} Dollars, brand: ${brand}`) //TEMPLATE STRINGS
