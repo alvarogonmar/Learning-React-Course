@@ -11,8 +11,19 @@ const customer1 = {
     premium : true
 }
 
-const shopping_car = {
-    amount : 1,
-    ...product1 // spread operator (...)
+// const shopping_car = {
+//     amount : 1,
+//     ...product1 // spread operator (...)
+// }
+// console.log(shopping_car)
+
+const newObject = {
+    ...product1,
+    // another way
+    ...customer1
 }
-console.log(shopping_car)
+console.log(newObject)
+
+// The same as above but less code
+const newObject2 = Object.assign(product1,customer1)
+console.log(newObject2)
