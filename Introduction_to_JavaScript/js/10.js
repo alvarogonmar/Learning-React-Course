@@ -36,10 +36,12 @@ const technologies = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
 // })
 // console.log(technologies2)
 
-// ACCESS EACH ELEMENT OF THE ARRAY AND MODIFY IT
+// ACCESS EACH ELEMENT OF THE ARRAY AND MODIFY IT (more recommended)
 const technologies2 = technologies.map(function(tech) {
     if(tech === 'Node.js') {
-        return 'Nest.js'
+        return 'Nest.js' 
+    } else {
+        return tech // RETURNING ALL THE ELEMENTS OF THE ARRAY
     }
 })
 console.log(technologies2)
