@@ -15,7 +15,7 @@ const technologies = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
 // technologies.shift()
 // console.table(technologies)
 
-// ACCESS EACH ELEMENT OF THE ARRAY
+// ACCESS EACH ELEMENT OF THE ARRAY filter(no mutation)
 // const technologies2 = technologies.filter(function(tech) {
 //     console.log(tech)
 // })
@@ -29,9 +29,17 @@ const technologies = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
 // console.log(technologies2)
 
 // PRINT ALL ELEMENTS EXCEPT HTML USING !==
-const technologies2 = technologies.filter(function(tech) {
-    if(tech !== 'HTML') {
-        return tech
+// const technologies2 = technologies.filter(function(tech) {
+//     if(tech !== 'HTML') {
+//         return tech
+//     }
+// })
+// console.log(technologies2)
+
+// ACCESS EACH ELEMENT OF THE ARRAY AND MODIFY IT
+const technologies2 = technologies.map(function(tech) {
+    if(tech === 'Node.js') {
+        return 'Nest.js'
     }
 })
 console.log(technologies2)
