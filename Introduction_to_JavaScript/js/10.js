@@ -8,7 +8,13 @@ const technologies = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
 // technologies.push('Nest.js')
 
 // ADD A VALUE AT THE END (BETTER TO USE WITH REACT)
-const newArray = [...technologies, 'Nest.js']
-console.table(technologies)
+// const newArray = [...technologies, 'Nest.js']
+// console.table(newArray)
 
-console.table(newArray)
+// DELETE A VALUE
+// technologies.shift()
+// console.table(technologies)
+
+const technologies22 = technologies.filter(function(tech) {
+    console.log(tech)
+})
