@@ -21,8 +21,16 @@ const technologies = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
 // })
 
 // PRINT ONLY HTML
+// const technologies2 = technologies.filter(function(tech) {
+//     if(tech === 'HTML') {
+//         return tech
+//     }
+// })
+// console.log(technologies2)
+
+// PRINT ALL ELEMENTS EXCEPT HTML USING !==
 const technologies2 = technologies.filter(function(tech) {
-    if(tech === 'HTML') {
+    if(tech !== 'HTML') {
         return tech
     }
 })
