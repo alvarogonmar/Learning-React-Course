@@ -15,6 +15,15 @@ const technologies = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
 // technologies.shift()
 // console.table(technologies)
 
-const technologies22 = technologies.filter(function(tech) {
-    console.log(tech)
+// ACCESS EACH ELEMENT OF THE ARRAY
+// const technologies2 = technologies.filter(function(tech) {
+//     console.log(tech)
+// })
+
+// PRINT ONLY HTML
+const technologies2 = technologies.filter(function(tech) {
+    if(tech === 'HTML') {
+        return tech
+    }
 })
+console.log(technologies2)
