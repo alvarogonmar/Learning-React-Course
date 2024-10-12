@@ -14,13 +14,18 @@ const technologies = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
 // })
 
 // PRINT THE ELEMENTS IN THE ARRAY  
-technologies.forEach(function(tech) {
-    console.log(tech)
-})
+// technologies.forEach(function(tech) {
+//     console.log(tech)
+// })
 
 // map (generates a new array in base of the condition)
 const arrayMap = technologies.map(function(tech) {
     return tech
 })
 
-console.log(arrayMap)
+
+// for ... of
+for(let tech of technologies){
+    console.log(tech)
+}
+// console.log(arrayMap)
