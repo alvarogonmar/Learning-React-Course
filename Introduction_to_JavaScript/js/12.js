@@ -8,6 +8,7 @@ const technologies = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
 
 // forEach : knows how many elements are in the array and executes those times
 // print the quantity of the elements in the array
+
 // technologies.forEach(function() {
 //     console.log('From the function')
 // })
@@ -16,3 +17,10 @@ const technologies = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
 technologies.forEach(function(tech) {
     console.log(tech)
 })
+
+// map (generates a new array in base of the condition)
+const arrayMap = technologies.map(function(tech) {
+    return tech
+})
+
+console.log(arrayMap)
