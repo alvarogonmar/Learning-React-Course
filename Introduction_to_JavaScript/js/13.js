@@ -1,7 +1,7 @@
 // Function Declaration
 
-function sum() {
-    console.log( 1 + 1 )
+function sum(x,y) {
+    console.log( x + y )
 }
 
-sum()
+sum(10,20)
