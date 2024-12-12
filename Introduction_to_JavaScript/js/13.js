@@ -1,5 +1,5 @@
 // Function Declaration
-
+// Funciona si mandas la llamar antes o despues de la funcion
 function sum(x,y) { // Parametros
     console.log( x + y )
 }
