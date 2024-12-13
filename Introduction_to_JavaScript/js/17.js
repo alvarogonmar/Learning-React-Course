@@ -22,3 +22,29 @@ console.log(result3)
 // Includes
 const result4 = technologies.includes("CSS")
 console.log(result4) // true
+
+// Some - devuelve si al menos uno cumple la condicion
+const result5 = numbers.some(number => number > 15)
+if(result5){
+    console.log("There are elements")
+} else{
+    console.log("There aren't elements")
+}
+console.log(result5)
+
+// Find - Devuelve el primer elemento que cumple una condicion
+const result6 = numbers.find(number => number >15)
+console.log(result6)
+
+// Every - Retorna true o false si todos cumplen la condicion
+const result7 = numbers.every(number => number >5)
+console.log(result7)
+
+// Reduce - Retorna un acumulado del total
+const result8 = numbers.reduce((total, number) => {
+    console.log(total)
+    console.log(number)
+
+    return total + number
+}, 0)
+console.log(result8)
