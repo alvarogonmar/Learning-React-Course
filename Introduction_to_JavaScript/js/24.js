@@ -1,5 +1,6 @@
-import { sum as functionSumar} from "./functions.js"
+import multipl, { sum } from "./functions.js"
 
-const result1 =  functionSumar(100, 20)
+const result1 =  sum(100, 20)
 console.log(result1)
-
+const result2 = multipl(20,10)
+console.log(result2)

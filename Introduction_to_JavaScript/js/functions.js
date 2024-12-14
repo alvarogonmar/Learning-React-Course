@@ -11,3 +11,9 @@ export function res(n1, n2){
 //     sum,
 //     res
 // }
+
+
+// Export default: solo puede haber uno por archivo, puedes nombrarlo como quieras y no debes ponerlo entre las llaves{}
+export default function mult(n1, n2){
+    return n1*n2
+}
