@@ -5,3 +5,9 @@ export function sum(n1, n2){
 export function res(n1, n2){
     return n1 - n2
 }
+
+// o tambien puede ser:
+// export {
+//     sum,
+//     res
+// }
